@@ -5,7 +5,7 @@
 [![Keras](https://img.shields.io/badge/Keras-3-D00000?logo=keras&logoColor=white)](https://keras.io/)
 [![Parameters](https://img.shields.io/badge/parameters-99%2C405%20%2F%20100k-2d6cdf)](#parameter-budget)
 
-> **Academic project** : Deep Learning course, Université Paris Dauphine-PSL (2025–2026).
+> **Academic project** : Deep Learning course, Université Paris Dauphine-PSL (2025-2026).
 
 This is our course project on the game of Go. We trained a small neural network that, given a board position, predicts both **where to play next** (the *policy*) and **who is likely to win** (the *value*), the same two outputs that drive AlphaGo-style engines. The twist, and the part that made the project interesting, is a hard constraint: the model must stay **under 100,000 parameters**. Most of our design choices come from squeezing as much as possible out of that tiny budget.
 
